@@ -1,69 +1,51 @@
-# React + TypeScript + Vite
+# 🏥 Hospital Management Frontend (Mock)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a mock frontend application built to showcase a basic **Hospital Management System** UI. The project is implemented using **TypeScript** and **Bootstrap** and utilizes **mock data** to demonstrate listing of doctors and patients.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tools / Libraries Used
 
-## Expanding the ESLint configuration
+- **TypeScript** – Type-safe JavaScript development for better maintainability.
+- **Bootstrap 5** – For responsive UI components and styling.
+- **HTML5 & DOM APIs** – For basic structure and interaction.
+- **Axios** (planned) – Intended for future backend integration with REST APIs.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 💡 Improvements with More Time
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Given additional time and resources, the following enhancements could be implemented:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🔗 **Backend Integration**: Replace mock data with dynamic content fetched from a Node.js + Express + MySQL backend.
+- ➕ **Add & Edit Forms**: Add functionality to create or update doctor/patient records via forms.
+- 🧾 **Search & Filter**: Add ability to search/filter doctors or patients based on specialization or condition.
+- 🧑‍💼 **Authentication**: Implement login flow for hospital staff using sessions or JWT.
+- 📱 **Mobile Optimization**: Fine-tune the layout for smaller screens and improve accessibility.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🧠 Challenges Faced and Solutions
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Challenge | Solution |
+|----------|----------|
+| ⚠️ Structuring TypeScript with Bootstrap | Manually configured TypeScript to work with DOM manipulation and Bootstrap 5 classes without relying on a framework like React. |
+| 💾 No real backend available | Used mock JSON objects to simulate realistic hospital data (doctors, patients) to focus on frontend logic and UI/UX. |
+| 🎯 Clean state updates | Ensured that DOM elements (lists) are updated cleanly by clearing previous content before re-rendering, preventing duplicates. |
+
+---
+
+## 📸 Screenshots
+
+<img width="1920" height="1080" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/581558d4-3e6c-4b1e-97a3-031e9dad4b15" />
+<img width="1920" height="1080" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/f707903c-368f-4950-8118-28fdc33e1c43" />
+<img width="1920" height="1080" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/64b94291-0c9c-41bc-9fcd-8a4ba3c5dd47" />
+
+<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/cfaa3966-4292-498b-a250-a22b120537dc" />
+<img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/1b53c50b-b0cd-43e9-adff-6591f97e1178" />
+
+
+---
+
+## 🗂️ Folder Structure
+
