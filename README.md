@@ -37,12 +37,6 @@ Given additional time and resources, the following enhancements could be impleme
 
 ## 📸 Screenshots
 
-<img width="1920" height="1080" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/581558d4-3e6c-4b1e-97a3-031e9dad4b15" />
-<img width="1920" height="1080" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/f707903c-368f-4950-8118-28fdc33e1c43" />
-<img width="1920" height="1080" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/64b94291-0c9c-41bc-9fcd-8a4ba3c5dd47" />
-
-<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/cfaa3966-4292-498b-a250-a22b120537dc" />
-<img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/1b53c50b-b0cd-43e9-adff-6591f97e1178" />
 
 
 ---
