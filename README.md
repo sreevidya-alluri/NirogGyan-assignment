@@ -35,7 +35,7 @@ Given additional time and resources, the following enhancements could be impleme
 
 ---
 
-## Screenshots
+
 
 
 
